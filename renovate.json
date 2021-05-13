@@ -9,5 +9,5 @@
       "stabilityDays": 0
     }
   ],
-  "renovateFork": true
+  "includeForks": true
 }
