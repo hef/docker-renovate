@@ -31,3 +31,4 @@ jobs:
           last-only: true
           tag-suffix: slim
           dry-run: ${{github.ref != 'refs/heads/main'}}
+          platforms: "linux/arm64, linux/amd64"
