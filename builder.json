@@ -1,4 +1,5 @@
 {
+  "imagePrefix": "ghcr.io/hef",
   "image": "renovate",
   "startVersion": "24.119.4",
   "cache": "docker-build-cache",
