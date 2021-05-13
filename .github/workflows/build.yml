@@ -27,6 +27,7 @@ jobs:
         uses: renovatebot/internal-tools@v1.6.4
         with:
           command: "docker-builder"
+          image-prefix: "ghcr.io/hef"
           last-only: true
           tag-suffix: slim
           dry-run: ${{github.ref != 'refs/heads/main'}}
