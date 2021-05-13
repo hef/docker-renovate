@@ -27,7 +27,7 @@ jobs:
         uses: hef/internal-tools@v1.8.0
         with:
           command: "docker-builder"
-          image-prefix: ghcr.io/${{ github.repository_owner }}
+          image-prefix: heff
           last-only: true
           tag-suffix: slim
           dry-run: ${{github.ref != 'refs/heads/main'}}
