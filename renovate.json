@@ -8,5 +8,6 @@
       "separateMinorPatch": false,
       "stabilityDays": 0
     }
-  ]
+  ],
+  "includeForks": true
 }
