@@ -54,7 +54,7 @@ RUN node -e "new require('re2')('.*').exec('test')"
 FROM base as final
 
 # renovate: datasource=docker versioning=docker
-RUN install-tool docker 20.10.20
+RUN install-tool docker 20.10.21
 
 ENV RENOVATE_BINARY_SOURCE=docker
 
